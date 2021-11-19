@@ -1,0 +1,209 @@
+body {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 0;
+  color: #0c529c;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 150px;
+  font-family: 'BlackJackRegular';
+  font-weight: lighter;
+  font-size: 80px;
+}
+
+@font-face {
+font-family: 'BlackJackRegular';
+font-style: normal;
+font-weight: normal;
+src: local('BlackJackRegular'), url('fonts/black_jack.woff') format('woff');
+}
+
+
+a:hover {
+  color: #072b52;
+}
+
+.sub_heading {
+  color: #0c529c;
+  position: absolute;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  left: 0;
+  right: 0;
+  top: 230px;
+}
+
+.top-container {
+  display: block;
+  background-color: #b7e2ff;
+  position: relative;
+  width: auto;
+  height: 670px;
+  margin: 0 auto;
+}
+
+.vector_art {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: auto;
+  bottom: 0;
+}
+
+.nav-txt {
+  font-family: "biotif", sans-serif;
+  font-size: 18px;
+  color: #0c529c;
+  font-weight: 500;
+  position: absolute;
+}
+
+.nav-link {
+  text-decoration: none;
+}
+
+.contact {
+  right: 40px;
+}
+
+.work {
+  right: 124px;
+}
+
+.about {
+  right: 196px;
+}
+
+.dp {
+  height: 150px;
+  width: auto;
+  margin-top: 100px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.middle-container {
+  background-color: #b7e2ff;
+}
+
+h2 {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-weight: 500;
+  font-size: 55px;
+  color: #0c529c;
+}
+
+h3 {
+  font-family: "Brandon Grotesque", sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #3275cf;
+}
+
+.para-txt {
+  text-align: center;
+  color: #040720;
+  font-family: "Cambria", serif;
+  font-size: 21px;
+  font-weight: 500;
+  line-height: 1.42857143;
+  letter-spacing: 0.5px;
+}
+
+.contact-me {
+  text-align: center;
+}
+
+.bottom-container {
+  background-color: #78C4FE;
+  margin: 0;
+}
+
+.footer-link {
+  display: inline-block;
+  padding: 30px 20px 15px 20px;
+  font-family: "biotif", sans-serif;
+  font-size: 17px;
+  color: #0c529c;
+  font-weight: 500;
+  line-height: 1.42857143;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+}
+
+.copyright {
+  display: block;
+  color: #0c529c;
+  text-align: center;
+  font-family: "Cambria", serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.42857143;
+  margin-bottom: 0;
+  padding-bottom: 25px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 75px auto 0 auto;
+}
+
+.skill-txt {
+  text-align: left;
+  margin-top: 0;
+}
+
+.skill-pic1 {
+  float: left;
+  height: 150px;
+  margin-right: 50px;
+}
+
+.skill-pic2 {
+  float: right;
+  height: 150px;
+  margin-left: 50px;
+}
+
+.skill-h3 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+
+.skills {
+  margin-top: 100px;
+}
+
+.contact-me {
+  margin-top: 200px;
+  padding-bottom: 125px;
+}
+
+.btn {
+  -webkit-border-radius: 6;
+  -moz-border-radius: 6;
+  border-radius: 6px;
+  font-family: "Brandon Grotesque", sans-serif;
+  font-weight: 500;
+  color: #b7e2ff;
+  font-size: 20px;
+  background: #0c529c;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #0a3c6e;
+  color: #b7e2ff;
+  text-decoration: none;
+}
+
+.contact-me-description {
+  width: 50%;
+  margin: 30px auto 50px auto;
+}
